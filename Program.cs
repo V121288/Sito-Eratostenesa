@@ -35,3 +35,11 @@ internal class Program
         }
     }
 }
+//Niech A będzie tablicą wartości typu logicznego indeksowaną liczbami
+//całkowitymi od 2 do n (indeksy 0 i 1 nie są brane pod uwagę w czasie
+//działania algorytmu), początkowo wypełniona wartościami true
+//for i := 2, 3, 4, ..., nie więcej niż √𝑛:
+//if A[i] = true:
+//for j := 2 * i, 3 * i, 4 * i, ..., nie więcej niż n :
+//A[j] := false
+//Wyjście: wartości i takie, że A[i] zawiera wartość true.
